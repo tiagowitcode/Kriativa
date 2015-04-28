@@ -1,0 +1,166 @@
+#topo{
+    background:url(topo.png) no-repeat top center;
+    height:212px;
+	margin-left:-8px;
+	margin-top:-7px;
+	
+    
+}
+
+
+
+
+
+#menuFundo{
+    width:197px;
+    height:387px;
+    background:url(fundomenu.png) no-repeat;
+    float:left;
+    
+}
+
+#menu{
+    
+    width:143px;
+    margin:0 auto;
+    margin-top:50px;
+    
+}
+#menu ul{
+    margin:0;
+    padding:0;
+    
+}
+
+#menu ul li{
+    background:url(fundoli2.jpg) no-repeat;
+    list-style: none;
+    padding-left:8px;
+    padding-top:10px;
+    margin-left:4px;
+}
+
+#menu ul li a{
+    
+    text-decoration:none;
+    font-family:arial;
+    font-size:14px;
+    color:#736a5a;
+}
+
+
+#cadastro{
+    
+    width:1920px;
+    /*width:492px;*/
+    /*height:801px;*/
+    margin-top: 20px;
+    /*background:url(fundocad.jpg) no-repeat;*/
+}
+
+.caderno1{
+    width:73px;
+    height:661px;
+    float:left;
+    background:url(caderno11.jpg) no-repeat;
+    
+}
+.caderno2{
+    width:38px;
+    height:661px;
+    
+    float:left;
+    background:url(caderno22.jpg) no-repeat;
+    
+}
+
+.dentrocadastro{
+    
+    height: 553px;
+    position: relative;
+    top: 32px;
+    float:left;
+    font-family:verdana;
+    font-size:12px;
+    min-width:400px;
+}
+
+
+.dentrocadastro td{
+    text-align:left;
+}
+
+
+
+.dentrolista{
+    height: 553px;
+    /*left: 83px;*/
+    position: relative;
+    top: 32px;
+    float:left;
+    font-family:verdana;
+    font-size:12px;
+    min-width:400px;
+    /*line-height: 0px;*/
+}
+
+.dentrolista td{
+    text-align:center;
+    padding-top:9px;
+}
+
+input[type="text"],input[type="password"] {
+   background: url("fundotext.jpg") no-repeat scroll 0 0 transparent;
+   border: 0 none;
+   height: 29px;
+   line-height: 31px;
+   padding: 0 10px;
+   width: 182px;
+
+}
+
+img{
+  border:none;  
+    
+}
+
+
+
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:10px 0pt 15px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+table.tablesorter thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}

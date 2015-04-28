@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('fontes/OpenSans-Light_0-webfont.eot');
+    src: url('fontes/OpenSans-Light_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/OpenSans-Light_0-webfont.woff2') format('woff2'),
+         url('fontes/OpenSans-Light_0-webfont.woff') format('woff'),
+         url('fontes/OpenSans-Light_0-webfont.ttf') format('truetype'),
+         url('fontes/OpenSans-Light_0-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('fontes/OpenSans-Bold-webfont.eot');
+    src: url('fontes/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/OpenSans-Bold-webfont.woff2') format('woff2'),
+         url('fontes/OpenSans-Bold-webfont.woff') format('woff'),
+         url('fontes/OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('fontes/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

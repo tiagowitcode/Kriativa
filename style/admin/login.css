@@ -1,0 +1,46 @@
+body{
+	/*background-color:#FFFFFF;*/
+	background:url(bg.jpg) no-repeat top center;
+	
+	}
+
+        
+        .logoEmpresa{
+            margin:0 auto;
+            width:250px;
+            height:230px;
+            position: relative;
+            top: 90px;
+            background:url(logo.jpg) no-repeat top center;
+        }        
+        
+.principal{
+  margin:0 auto;
+  width:639px;
+  height:552px;
+  background-image:url(bg_login.png);
+  margin-top:150px;
+  
+  
+}
+
+.formContato input[type="text"],input[type="password"] {
+    background: url(input.png) no-repeat;
+    border: 0 none;
+    height: 36px;
+    line-height: 31px;
+    padding: 0 10px;
+    width: 289px;
+    font-family:arial;
+    color:#504531;
+}
+
+
+.centro{
+	margin:0 auto;
+	width:280px;
+	height:200px;
+	position:relative;
+	top:150px;
+		
+}
