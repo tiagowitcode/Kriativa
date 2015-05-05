@@ -14,7 +14,7 @@ $(document).ready(function(){
       <div class="centro">
         <h1>NOSSOS <span>PRODUTOS</span></h1>
         <ul>
-         <li><a href="">INICIO&nbsp; ></a></li>
+         <li><a href="<?php echo base_url();?>">INICIO&nbsp; ></a></li>
         <li>&nbsp; PRODUTOS</li>
        </ul>
     </div>
@@ -36,7 +36,7 @@ $(document).ready(function(){
             $this->db->where("id_produtos",$produto[0]->id);
             $foto = $this->db->get("fotos_produtos")->result();
            ?>
-          <img itemprop="image" src="<?php echo base_url();?>phpthumb/phpThumb.php?src=../imgs/<?php echo $foto[0]->nome;?>&w=320&h=321&zc=1&q=100" alt="<?php echo $produto[0]->nome;?>" />
+          <a href="<?php echo base_url();?>imgs/<?php echo $foto[0]->nome;?>" rel="lightbox[roadtrip]"><img itemprop="image" src="<?php echo base_url();?>phpthumb/phpThumb.php?src=../imgs/<?php echo $foto[0]->nome;?>&w=320&h=321&zc=1&q=100" alt="<?php echo $produto[0]->nome;?>" /></a>
         </div>
         <div class="titulo_interna">
           <h2><?php echo $produto[0]->nome;?><br/><span>Ref: <?php echo $produto[0]->codigo;?></span></h2>

@@ -4,7 +4,7 @@
      <div class="div_box_flores">
 
         <div class="box_info">
-         <a class="link_box" href=""></a>
+         <a class="link_box" href="<?php echo base_url();?>produtos/categoria/19"></a>
          <div class="image_box">
            <img src="<?php echo base_url();?>style/images/img1.jpg"/>
            <div class="div_absolute"></div>
@@ -18,7 +18,7 @@
        </div>
 
                <div class="box_info">
-         <a class="link_box" href=""></a>
+         <a class="link_box" href="<?php echo base_url();?>produtos/categoria/12"></a>
          <div class="image_box">
            <img src="<?php echo base_url();?>style/images/categoria2.jpg"/>
            <div class="div_absolute"></div>
@@ -32,7 +32,7 @@
        </div>
 
                <div class="box_info">
-         <a class="link_box" href=""></a>
+         <a class="link_box" href="<?php echo base_url();?>produtos/categoria/16"></a>
          <div class="image_box">
            <img src="<?php echo base_url();?>style/images/categoria3.jpg"/>
            <div class="div_absolute"></div>
@@ -79,7 +79,7 @@
       <img itemprop="image" src="<?php echo base_url();?>phpthumb/phpThumb.php?src=../imgs/<?php echo $foto[0]->nome;?>&w=211&h=214&zc=1&q=100" alt="<?php echo $produto->nome;?>" />
     </div>
     <div class="produto_descricao">
-      <p><?php echo $produto->nome;?><br/><span><?php echo $produto->valor;?></span></p>
+      <p><?php echo $produto->nome;?><br/><span>R$<?php echo $produto->valor;?></span></p>
     </div>
     <div class="bandeira_mais"></div>
   </div>

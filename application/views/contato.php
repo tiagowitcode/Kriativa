@@ -55,8 +55,13 @@
         </p>
       </div>
     
+      
+      
         <div class="formulario">
-          <form method="post" action="">
+          <?php if($enviou){ ?>
+          <p id="status" style="width:100%;text-align:left; color:#c21e74;">E-mail enviado com sucesso!</p>
+          <?php } ?>
+          <form method="post" action="<?php echo base_url();?>contato/enviar">
             <input required type="text" name="nome" placeholder="Nome"/>
             <input required type="text" name="email" placeholder="E-mail"/>
             <input type="text" name="fone" placeholder="Fone"/>

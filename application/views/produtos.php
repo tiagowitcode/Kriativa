@@ -14,7 +14,7 @@ $(document).ready(function(){
       <div class="centro">
         <h1>NOSSOS <span>PRODUTOS</span></h1>
         <ul>
-         <li><a href="">INICIO&nbsp; ></a></li>
+         <li><a href="<?php echo base_url();?>">INICIO&nbsp; ></a></li>
         <li>&nbsp; PRODUTOS</li>
        </ul>
     </div>
@@ -46,7 +46,7 @@ $(document).ready(function(){
            <img itemprop="image" src="<?php echo base_url();?>phpthumb/phpThumb.php?src=../imgs/<?php echo $foto[0]->nome;?>&w=211&h=214&zc=1&q=100" alt="<?php echo $produto->nome;?>" />
         </div>
         <div class="produto_descricao">
-          <p><?php echo $produto->nome;?><br/><span><?php echo $produto->valor;?></span></p>
+          <p><?php echo $produto->nome;?><br/><span>R$ <?php echo $produto->valor;?></span></p>
         </div>
         <div class="bandeira_mais"></div>
       </div>

@@ -5,16 +5,18 @@
     <link type="text/css" rel="stylesheet" href="<?php echo base_url();?>style/estilo.css"/>
     <link rel="stylesheet" type="text/css" href="<?php echo base_url();?>style/shadowbox.css" />
     <script type="text/javascript" src="<?php echo base_url();?>js/shadowbox.js"></script>
+    
     <title><?php echo $title;?></title>
     <?php echo $meta;?>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
       <!-- Google -->
   <meta itemprop="name" content="Kriativa" />
-  <meta itemprop="description" content="Floricultura em Caxias do Sul - trabalhamos com arranjos florais, flores de corte, plantas para presente, plantas e mudas para jardim, entre outros acessórios."/>
+  <meta itemprop="description" content="Floricultura em Caxias do Sul - trabalhamos com arranjos, flores do campo, rosas, flores exóticas, plantas entre outros. Entregamos em domicílio."/>
   <meta itemprop="image" content="http://www.floriculturakriativa.com/style/logotipo.png"/>
 
     <script type="text/javascript" src="<?php echo base_url();?>js/jquery.js"></script>
+    <script type="text/javascript" src="<?php echo base_url();?>js/wforimage.js"></script>
     <script type="text/javascript">
   Shadowbox.init({});
 
@@ -66,25 +68,31 @@
       return false;
     
     });
+    var qtdSlide = $(".slide").size();
+       $(".slide:first").addClass("ativo");
+       box_home();
+     var i = 1;
+    $('.slider').waitForImages(function() {
 
-   var qtdSlide = $(".slide").size();
-     $(".slide:first").addClass("ativo");
-     box_home();
-   var i = 1;
+      
 
-      interval = setInterval(function(){
-          
-        if(i >= 0 && i < qtdSlide){
-          $(".slide:visible").removeClass("ativo").next(".slide").addClass("ativo");
-        }else if(i == qtdSlide){
+        interval = setInterval(function(){
+            
+          if(i >= 0 && i < qtdSlide){
+            $(".slide:visible").removeClass("ativo").next(".slide").addClass("ativo");
+          }else if(i == qtdSlide){
 
-            $(".slide").removeClass("ativo");
-            $(".slide:first").addClass("ativo");
-            i = 1;
-        }
+              $(".slide").removeClass("ativo");
+              $(".slide:first").addClass("ativo");
+              i = 1;
+          }
 
-       i++;
-      },4000);
+         i++;
+        },4000);
+   
+  });
+
+   
 
       $(".flecha_dir").click(function(){
         clearInterval(interval);
@@ -172,7 +180,7 @@ function box_home(){
         <p>(54) 3214.2170</p>
       </div>
       <div class="rede_social">
-       <a class="fb_topo" href=""></a>
+       <a class="fb_topo" target="_blank" href="https://www.facebook.com/floriculturakriativa?fref=ts"></a>
       </div>
       
     </div>
@@ -252,7 +260,7 @@ function box_home(){
         <p>(54) 3214.2170</p>
       </div>
       <div class="rede_social">
-       <a class="fb_topo" href=""></a>
+       <a class="fb_topo" target="_blank" href="https://www.facebook.com/floriculturakriativa?fref=ts"></a>
       </div>
       
     </div>

@@ -41,7 +41,7 @@
 				</div>
 				<div class="email">
 					<img src="<?php echo base_url();?>style/images/email_icon.png"/>
-					<p>contato@floriculturakriativa.com.br</p>
+					<p>floriculturakriativa@terra.com.br</p>
 				</div>
 				<div class="divisao_rodape"></div>
 				<a class="witcode" href="http://www.witcode.com.br/" target="_blank"><img src="<?php echo base_url();?>style/images/witcode.png"/></a>

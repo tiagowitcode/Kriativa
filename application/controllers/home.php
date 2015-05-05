@@ -11,7 +11,7 @@ class Home extends CI_Controller {
         
 		$dados['title'] = "Kriativa - Floricultura Caxias do Sul";
 		
-		$dados['meta'] = "<meta name='description' content='Floricultura em Caxias do Sul - trabalhamos com arranjos florais, flores de corte, plantas para presente, plantas e mudas para jardim, entre outros acessórios.' />";
+		$dados['meta'] = "<meta name='description' content='Floricultura em Caxias do Sul - trabalhamos com arranjos, flores do campo, rosas, flores exóticas, plantas entre outros. Entregamos em domicílio.' />";
 		
 		
 		$this->db->order_by("id","desc");
